@@ -27,7 +27,7 @@ function countOccurences(string, word) {
 // Endpoints
 
 //Obtiene nombre del texto y termino
-app.get("/www.melichallenge.test/text_name=:TEXTNAME&termino=:term", (req, res) => {
+app.get("text_name=:TEXTNAME&termino=:term", (req, res) => {
     var sql = "select TEXTCONTENT from text where TEXTNAME = ?"
     var params = [req.params.TEXTNAME]
     var term = [req.params.term]
@@ -43,7 +43,7 @@ app.get("/www.melichallenge.test/text_name=:TEXTNAME&termino=:term", (req, res) 
 });
 
 //Obtiene el termino
-app.get("/www.melichallenge.test/termino=:term", (req, res) => {
+app.get("/termino=:term", (req, res) => {
     var sql = "SELECT * from text"
     var params = [req.params.TEXTCONTENT]
     var term = [req.params.term]

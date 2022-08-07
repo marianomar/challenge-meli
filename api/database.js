@@ -15,7 +15,7 @@ const db = new sqlite3.Database(db_name, err =>{
 
 
 //Crea la tabla con los archivos
-//db.run('CREATE TABLE text(ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, TEXTNAME TEXT, TEXTCONTENT TEXT)')
+db.run('CREATE TABLE text(ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, TEXTNAME TEXT, TEXTCONTENT TEXT)')
 
 //Dado nombre de un archivo lo inserta en la D.B
 function tabla(fileName){
