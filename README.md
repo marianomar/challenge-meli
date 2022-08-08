@@ -13,6 +13,6 @@ de los textos.
 ## React APP
 
 - Correr la app con npm start desde una nueva terminal.
-- Nuestra app correra automaticamente en el puero 3000
+- Nuestra app correra automaticamente en el puerto 3000
 - Filtrar por término ingresando el término en la barra de busqueda y activamos la busqueda con el botón.
 - Filtrar por término dentro de un texto ingresando en nombre del texto y el término en la barra de busqueda y activamos la busqueda con el botón.
