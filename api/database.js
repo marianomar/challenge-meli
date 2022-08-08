@@ -36,7 +36,7 @@ function iterarFs() {
             tabla(path.join(__dirname, './archivos_txt', file));
             
         });
-        console.log('this is fine')
+        console.log('table created successfully')
     });
     
 };
