@@ -7,7 +7,7 @@ const fs = require('fs');
 const db = require("./database.js");
 
 // Server port
-var HTTP_PORT = 3000 
+var HTTP_PORT = 3001
 
 // Start server
 app.listen(HTTP_PORT, () => {
