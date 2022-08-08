@@ -6,7 +6,7 @@ const Form = ({newData}) =>  {
         e.preventDefault();
         console.log(info)
 
-    }
+    } 
     return(
         <div className="container">
 
